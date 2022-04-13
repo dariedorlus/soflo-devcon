@@ -74,6 +74,16 @@ idance .timetable {
 
 .idance .timetable-item-name {
   font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.idance .timetable-item-topic {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.idance .timetable-item-room {
+  font-size: 13px;
   margin-bottom: 19px;
 }
 

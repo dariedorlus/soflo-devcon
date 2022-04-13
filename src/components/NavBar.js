@@ -16,10 +16,12 @@ const NavBar = ({sessions, setActiveCategory, activeCategory}) => {
     }, [sessions]); 
 
     return (
-      <Nav as="nav" variant="tabs" defaultActiveKey="/">
+      <Nav as="nav" variant="tabs" activeKey={activeCategory}>
         {categories.map((category, index) => {
           return (
-            <Nav.Item key={index} active={activeCategory === category}>
+            <Nav.Item key={index} 
+            // active={activeCategory == category ? true: false}
+            >
               <Nav.Link
                 onClick={() => setActiveCategory(category)}
                 key={index}
