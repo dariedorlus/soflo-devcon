@@ -9,7 +9,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Alejandro-Sanchez.jpg",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 2097",
+        "room": "Room 2097 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -22,7 +22,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Patricia-Ojeda--289x289.jpg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 2097",
+        "room": "Room 2097 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -35,7 +35,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Will-W-500x500.png",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 2097",
+        "room": "Room 2097 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -48,7 +48,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Miriam-D-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 2097",
+        "room": "Room 2097 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -61,7 +61,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Chad-Folkening-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 2101",
+        "room": "Room 2101 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -74,7 +74,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Sly-Buford-194x194.png",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 2101",
+        "room": "Room 2101 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -87,7 +87,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/JaredHeadShot2-1-scaled-225x225.jpg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 2101",
+        "room": "Room 2101 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -100,7 +100,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Aaron-Chavez-500x500.jpg",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 2101",
+        "room": "Room 2101 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -113,7 +113,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Carrie-Moore.jpg",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 2101",
+        "room": "Room 2101 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -126,7 +126,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Erik-Mintz.jpg",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 2101",
+        "room": "Room 2101 - 2nd Floor",
         "status": "hold"
     },
     {
@@ -139,7 +139,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/elizabeth-d-500x500.png",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "hold"
     },
     {
@@ -152,7 +152,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Nicholas-Mohnacky.jpg",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -165,7 +165,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Saida-and-Aakriti-500x500.png",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -178,7 +178,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Michel-Lacle-scaled-247x247.jpg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -191,7 +191,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2020/05/Barkha-Herman.jpeg",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -204,7 +204,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Trevor-D-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -217,7 +217,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2021/12/Tahl-Milburn.jpg",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -243,7 +243,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Rushinek_duo-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 6",
+        "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -256,7 +256,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/elizabeth-d-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 7",
+        "room": "Room 3032 - 3rd Floor",
         "status": "confirmed"
     },
     {
@@ -269,7 +269,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Chris-J-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 8",
+        "room": "Room 2082 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -282,7 +282,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Surya-Challa-266x266.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 9",
+        "room": "Room 2071 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -295,7 +295,7 @@
         "speakerPicture": "/palm-beach-tech.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 10",
+        "room": "Room 2067 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -308,7 +308,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Carlos-L-500x500.png",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -321,7 +321,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Mark-Moyou-297x297.jpg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -334,7 +334,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/William-Hahn-Ph.D-500x500.png",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -347,7 +347,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Edwin-Hernandez-Dr.-500x500.jpg",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -360,7 +360,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Adelmo-Orozco-500x500.png",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 2077",
+        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -425,7 +425,7 @@
         "speakerPicture": "/palm-beach-tech.png",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 6",
+        "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -438,7 +438,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Ariana-P-500x500.png",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 6",
+        "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -451,7 +451,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Rob-Petrosino-500x500.jpg",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 6",
+        "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
     },
 
@@ -465,7 +465,7 @@
         "speakerPicture": "/palm-beach-tech.png",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 6",
+        "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -478,7 +478,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Alex-Funkhouser.png",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 7",
+        "room": "Room 3032 - 3rd Floor",
         "status": "confirmed"
     },
     {
@@ -491,7 +491,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Marilyn-Rousseau-276x276.jpg",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 7",
+        "room": "Room 3032 - 3rd Floor",
         "status": "confirmed"
     },
     {
@@ -504,7 +504,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Greg-Taffet-274x274.jpg",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 7",
+        "room": "Room 3032 - 3rd Floor",
         "status": "confirmed"
     },
     {
@@ -517,7 +517,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Vyom-Upadhya_main-500x500.jpg",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 7",
+        "room": "Room 3032 - 3rd Floor",
         "status": "confirmed"
     },
     {
@@ -530,33 +530,137 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2020/05/Barkha-Herman.jpeg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 7",
+        "room": "Room 3032 - 3rd Floor",
         "status": "confirmed"
     },
     {
         "year": 2022,
-        "track": 0,
-        "category": "",
-        "topic": "",
-        "speaker": "",
-        "speakerLink": "",
-        "speakerPicture": "/palm-beach-tech.png",
-        "time": "",
-        "session": 0,
-        "room": "",
+        "track": 8,
+        "category": "DESIGN + UI + UX",
+        "topic": "Hack Days: How to Run a UX Ideation Workshop",
+        "speaker": "Emily Cleary",
+        "speakerLink": "https://www.linkedin.com/in/emilyvcleary/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Emily-C-500x500.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2082 - 2nd Floor",
         "status": "confirmed"
     },
     {
         "year": 2022,
-        "track": 0,
-        "category": "",
-        "topic": "",
-        "speaker": "",
-        "speakerLink": "",
-        "speakerPicture": "/palm-beach-tech.png",
-        "time": "",
-        "session": 0,
-        "room": "",
+        "track": 8,
+        "category": "DESIGN + UI + UX",
+        "topic": "How to Increase Your Website’s Conversion Rate Through Code and Software",
+        "speaker": "Lancey Lexima",
+        "speakerLink": "https://www.linkedin.com/in/lancey-lexima-3706aa4a/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2021/08/Lancey-1-500x500.jpeg",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2082 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 8,
+        "category": "DESIGN + UI + UX",
+        "topic": "Design Thinking for AI Product Management",
+        "speaker": "Catalina Arango",
+        "speakerLink": "https://www.linkedin.com/in/arangocatalina/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Catalina-Arango-500x500.png",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2082 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 8,
+        "category": "DESIGN + UI + UX",
+        "topic": "The Importance of User Testing & How It Differs from QA Testing",
+        "speaker": "Ally Campbell",
+        "speakerLink": "https://www.linkedin.com/in/ally-the-designer/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Ally-Campbell-500x500.png",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2082 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 8,
+        "category": "DESIGN + UI + UX",
+        "topic": "A Programming Language for UI Designers",
+        "speaker": "Daniel Vaughn",
+        "speakerLink": "https://www.linkedin.com/in/vaughndaniel/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Daniel-V-500x500.png",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2082 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 9,
+        "category": "DEVOPS & MICROSERVICES",
+        "topic": "Building Your Payment Flows with Stripe",
+        "speaker": "Cecil Phillip",
+        "speakerLink": "https://www.linkedin.com/in/cecil-phillip/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Cecil-Phillip-500x500.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2071 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 9,
+        "category": "DEVOPS & MICROSERVICES",
+        "topic": "How Containerizing Dev Environments Improves Onboarding, Productivity, and Security",
+        "speaker": "James Riley",
+        "speakerLink": "https://www.linkedin.com/in/james-riley-00a6979/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/James-Riley-500x500.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 4,
+        "room": "Room 2071 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 9,
+        "category": "DEVOPS & MICROSERVICES",
+        "topic": "Level Up With These 5 DevOps and Cloud Technologies",
+        "speaker": "Mitchell Ashley",
+        "speakerLink": "https://www.linkedin.com/in/mitchellashley/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Michell-A-500x500.png",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2071 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 9,
+        "category": "DEVOPS & MICROSERVICES",
+        "topic": "Deliver Software Sooner: Lessons From DevOps In The Real World",
+        "speaker": "Push Pradhan",
+        "speakerLink": "https://www.linkedin.com/in/pushpradhan/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Push-Pradhan-500x500.png",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2071 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 9,
+        "category": "DEVOPS & MICROSERVICES",
+        "topic": "Intro to GitHub",
+        "speaker": "Pierre Donyegro",
+        "speakerLink": "https://www.linkedin.com/in/pierre-donyegro-6646015/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Pierre-500x500.png",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2071 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -569,46 +673,566 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Morgan-Levy-500x500.png",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 2097",
+        "room": "Room 2097 - 2nd Floor",
         "status": "confirmed"
     },
     {
         "year": 2022,
-        "track": 0,
-        "category": "",
-        "topic": "",
-        "speaker": "",
-        "speakerLink": "",
-        "speakerPicture": "/palm-beach-tech.png",
-        "time": "",
-        "session": 0,
-        "room": "",
+        "track": 10,
+        "category": "TALENT",
+        "topic": "Benefits of Overcoming Imposter Syndrome",
+        "speaker": "CeCe Espeut",
+        "speakerLink": "http://www.linkedin.com/in/ceceespeut",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/CeCe-Espuet.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2067 - 2nd Floor",
         "status": "confirmed"
     },
     {
         "year": 2022,
-        "track": 0,
-        "category": "",
-        "topic": "",
-        "speaker": "",
-        "speakerLink": "",
-        "speakerPicture": "/palm-beach-tech.png",
-        "time": "",
-        "session": 0,
-        "room": "",
+        "track": 10,
+        "category": "TALENT",
+        "topic": "Disrupters in Education: How Agile Can Transform Education to Prepare Students for the Future",
+        "speaker": "Jessica Cavallaro & Roslynn Jackson",
+        "speakerLink": "https://www.linkedin.com/in/jesscav/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/dual-_1-500x500.png",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2067 - 2nd Floor",
         "status": "confirmed"
     },
     {
         "year": 2022,
-        "track": 0,
-        "category": "",
-        "topic": "",
-        "speaker": "",
+        "track": 10,
+        "category": "TALENT",
+        "topic": "Make a Positive Impact Without Quitting Your Day Job",
+        "speaker": "Will Orozco",
+        "speakerLink": "https://www.linkedin.com/in/willy-orozco/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Willy-Orozco-scaled-288x288.jpg",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2067 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 10,
+        "category": "TALENT",
+        "topic": "Reinventing Yourself After a Tech Career Crisis",
+        "speaker": "Roberta Barbosa",
+        "speakerLink": "https://www.linkedin.com/in/roberta-barbosa-rb/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Roberta-Barbosa-296x296.jpg",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2067 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 10,
+        "category": "TALENT",
+        "topic": "Michael Corbit",
+        "speaker": "Soft Skills and Interview Preparedness",
+        "speakerLink": "https://www.linkedin.com/in/michael-corbit-68755544/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Michael-Corbit-500x500.png",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2067 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 11,
+        "category": "RASPBERRY PI & QUANTUM COMPUTING",
+        "topic": "7 Things To Know About Quantum Computing",
+        "speaker": "Dwight Goins",
+        "speakerLink": "https://www.linkedin.com/in/dwight-goins-5918361/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Dwight-Goins.jpg",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2056 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 11,
+        "category": "RASPBERRY PI & QUANTUM COMPUTING",
+        "topic": "Bake a Raspberry Cluster Application Pie (Yam)",
+        "speaker": "Ken Crawford",
+        "speakerLink": "https://www.linkedin.com/in/kmcrawford410/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Ken-Crawford_2-225x225.jpg",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2056 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 11,
+        "category": "RASPBERRY PI & QUANTUM COMPUTING",
+        "topic": "Getting To Know Raspberry Pi with Cool Hardware Extension (HATS) and Python",
+        "speaker": "Tahl Milburn",
         "speakerLink": "",
-        "speakerPicture": "/palm-beach-tech.png",
-        "time": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2021/12/Tahl-Milburn.jpg",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2056 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 11,
+        "category": "RASPBERRY PI & QUANTUM COMPUTING",
+        "topic": "ML on the Edge: Turning Your RPi Into an AI in Under 45 Minutes",
+        "speaker": "Misha Klopukh",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Misha-K-500x500.png",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2056 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 12,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "The Agile Way - Where less delivers more value",
+        "speaker": "Lisa Pratt-Sanchez",
+        "speakerLink": "https://www.linkedin.com/in/lisa-pratt-sanchez-257a9/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Lisa-PS-500x500.png",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2066 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 12,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "The Role of a Traveling Consultant (Excelling in the Gig Economy)",
+        "speaker": "Wes Dumey",
+        "speakerLink": "https://www.linkedin.com/in/wesdumey/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Wes-D-500x500.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2066 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 12,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "Selecting the Appropriate PM Tools & Techniques",
+        "speaker": "Fred Obiero",
+        "speakerLink": "https://www.linkedin.com/in/fredobiero/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Fred-O-500x500.png",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2066 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 12,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "Why Go Agile?",
+        "speaker": "Erik Lindgren",
+        "speakerLink": "https://www.linkedin.com/in/jeriklindgren/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Erik-Lindgren-500x500.png",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2066 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 12,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "Proposing, Negotiating and Communicating Contracts in an Agile Environment",
+        "speaker": "Cristina Escalante",
+        "speakerLink": "https://www.linkedin.com/in/cristina-escalante-82529714/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Cristina-Escalante-500x500.png",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2066 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 12,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "A Hot Cup of Agile Lean Coffee",
+        "speaker": "Kim Scribner & Prateek Singh",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Kim-Prakeet-500x500.png",
+        "time": "8:30AM - 9:30AM",
         "session": 0,
-        "room": "",
+        "room": "Room 2066 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 13,
+        "category": "INVESTMENT",
+        "topic": "How to Get VC to Invest In You",
+        "speaker": "Maggie Vo",
+        "speakerLink": "https://www.linkedin.com/in/jeffransdell/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Maggie-Vo-200x200.jpeg",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2057 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 13,
+        "category": "INVESTMENT",
+        "topic": "Future of Technology in Finance -- Panel",
+        "speaker": "Rusty Conover, Drashti Trivedi, Wesley Maness (Schonfeld)",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/IG-Coasters-3-500x500.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2057 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 13,
+        "category": "INVESTMENT",
+        "topic": "Why is Fractional RealEstate Investing the Future? -- Panel",
+        "speaker": "Julio Caceres, Cedric Teboul, Margarita Franco, and Mike Owen",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/panel-5-500x500.png",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2057 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 13,
+        "category": "INVESTMENT",
+        "topic": "Bootstrapping vs Fundraising",
+        "speaker": "Ariana Pareja",
+        "speakerLink": "https://www.linkedin.com/in/arianapareja/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Ariana-P-500x500.png",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2057 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 13,
+        "category": "INVESTMENT",
+        "topic": "An Investor's View: Product Led Growth 2.0",
+        "speaker": "Ken Hall",
+        "speakerLink": "https://www.linkedin.com/in/kencasehall/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Ken-Hall-500x500.png",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2057 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 13,
+        "category": "INVESTMENT",
+        "topic": "Hacking Your Investor Pitch",
+        "speaker": "Ron Tarro",
+        "speakerLink": "https://www.linkedin.com/in/rontarro/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Ron-Tarro-500x500.png",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2057 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 14,
+        "category": "QA/TESTING",
+        "topic": "Using Test-Driven Design to Build Better Interfaces & Structure for Software",
+        "speaker": "Rick Martinez",
+        "speakerLink": "https://www.linkedin.com/in/rickmzp/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Rick-Martinez-500x500.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2065 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 14,
+        "category": "QA/TESTING",
+        "topic": "Mobile App Design and Testing",
+        "speaker": "Jeyanthi Rajaselvarasu",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Jey-R-500x500.png",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2065 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 14,
+        "category": "QA/TESTING",
+        "topic": "The Fault In Our Code: Debugging Methods For Every Stage",
+        "speaker": "Camilo Payan",
+        "speakerLink": "https://www.linkedin.com/in/cpayan",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Camilo-Payan.jpg",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2065 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 14,
+        "category": "QA/TESTING",
+        "topic": "SQL Server Unit Testing",
+        "speaker": "Kevin Boles",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Kevin_Closeup_Headshot-279x279.jpg",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2065 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 15,
+        "category": "SAAS & IOT",
+        "topic": "The Future of Streaming is Interactivity",
+        "speaker": "Gio Punzo",
+        "speakerLink": "https://www.linkedin.com/in/punzo/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Gio-P-500x500.png",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2060 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 15,
+        "category": "SAAS & IOT",
+        "topic": "SAAS Application Design Insight",
+        "speaker": "Jeyanthi Rajaselvarasu",
+        "speakerLink": "https://www.linkedin.com/in/jeyanthi-rajaselvarasu-093b5713/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B6%2BEegqweTfGBMVJ7mRRIqQ%3D%3D",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Jey-R-500x500.png",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2060 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 15,
+        "category": "SAAS & IOT",
+        "topic": "Data Analysis using Power BI and Excel on Microsoft Analytics Platform",
+        "speaker": "Cecilia Brusatori",
+        "speakerLink": "https://www.linkedin.com/in/cebrusa/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Cecilia-Brusatori-295x295.jpg",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2060 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 15,
+        "category": "SAAS & IOT",
+        "topic": "Azure Development with IoT",
+        "speaker": "Dwight Goins",
+        "speakerLink": "https://www.linkedin.com/in/dwight-goins-5918361/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Dwight-Goins.jpg",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2060 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 15,
+        "category": "SAAS & IOT",
+        "topic": "A Look Into The Future of VR Software & Hardware",
+        "speaker": "Herman Remy",
+        "speakerLink": "https://www.linkedin.com/in/herman-remy-2a4b86185/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Herman-Remy-282x282.jpg",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2060 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 15,
+        "category": "SAAS & IOT",
+        "topic": "Using SaaS, Cloud & IoT to Bring Sugar To Your Table",
+        "speaker": "Kelvin Llaverias",
+        "speakerLink": "https://www.linkedin.com/in/kllaverias/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Kelvin-L-500x500.png",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2060 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 16,
+        "category": "Mobile & Web Development",
+        "topic": "Our Mobile World",
+        "speaker": "Mitchell Kelman",
+        "speakerLink": "https://www.linkedin.com/in/mitchellkelman/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Mitchell-Kelman-Copy-282x282.jpg",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2064 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 16,
+        "category": "Mobile & Web Development",
+        "topic": "Building Modern Web Apps Using Angular",
+        "speaker": "Trestian Stewart",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Tre_Pic-1-scaled-225x225.jpg",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2064 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 16,
+        "category": "Mobile & Web Development",
+        "topic": "Create iOS, Android apps with .Net, C# and Xamarin",
+        "speaker": "Robert Hellestrae",
+        "speakerLink": "https://www.linkedin.com/in/roberthellestrae/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Icon512x512.png",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2064 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 16,
+        "category": "Mobile & Web Development",
+        "topic": "Introduction to .Net Maui for the Xamarin.Forms Developer",
+        "speaker": "David Silverlight",
+        "speakerLink": "https://www.linkedin.com/in/xamaringeek/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/David-Silverlight-500x500.png",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2064 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 16,
+        "category": "Mobile & Web Development",
+        "topic": "Intro to Production Python Coding",
+        "speaker": "David Crook",
+        "speakerLink": "https://www.linkedin.com/in/drcrook/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/David_Pro-274x274.jpg",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2064 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 16,
+        "category": "Mobile & Web Development",
+        "topic": "Code & Build It Once for Any Device with React Native",
+        "speaker": "Jonathan Sanchez",
+        "speakerLink": "https://www.linkedin.com/in/jonathansanchez199/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Jonathan-S-500x500.png",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2064 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 17,
+        "category": "CLOUD",
+        "topic": "Learn Azure With PowerShell",
+        "speaker": "David Cobb",
+        "speakerLink": "https://www.linkedin.com/in/davidcobb/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/David-Cobb-500x500.jpg",
+        "time": "8:30AM - 9:30AM",
+        "session": 1,
+        "room": "Room 2061 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 17,
+        "category": "CLOUD",
+        "topic": "Using Google CloudRun to Easily Deploy & Scale Apps",
+        "speaker": "Ricardo de Andrade",
+        "speakerLink": "https://www.linkedin.com/in/rdeandrade/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Ricardo-de-Andrade-scaled-270x270.jpg",
+        "time": "9:45AM - 10:45AM",
+        "session": 2,
+        "room": "Room 2061 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 17,
+        "category": "CLOUD",
+        "topic": "Home Lab – Private Cloud on a budget",
+        "speaker": "Jared Rhodes",
+        "speakerLink": "https://www.linkedin.com/in/qimata/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Jared-Rhodes.jpg",
+        "time": "11:00AM - 12:00PM",
+        "session": 3,
+        "room": "Room 2061 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 17,
+        "category": "CLOUD",
+        "topic": "Migrating SQL Server Applications to the Cloud",
+        "speaker": "Kevin Boles",
+        "speakerLink": "",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Kevin_Closeup_Headshot-279x279.jpg",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2061 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 17,
+        "category": "CLOUD",
+        "topic": "Serverless Without Code",
+        "speaker": "Patrick Hannah",
+        "speakerLink": "https://www.linkedin.com/in/patrickjhannah/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2020/05/Patrick-Hannah.jpeg",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2061 -- 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 17,
+        "category": "CLOUD",
+        "topic": "Azure Functions for Enterprise Applications & Heavy Duty Tasks",
+        "speaker": "Hector García",
+        "speakerLink": "https://www.linkedin.com/in/hectordetroya84",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Hector-Garcia-500x500.png",
+        "time": "4:00PM - 5:00PM",
+        "session": 6,
+        "room": "Room 2061 -- 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -621,7 +1245,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Eugenio-Jaramillo.jpg",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 2097",
+        "room": "Room 2097 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -634,7 +1258,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Damian-M-500x500.png",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 6",
+        "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
     }
 ]
