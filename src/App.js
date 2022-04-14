@@ -24,6 +24,7 @@ function App() {
           </SessionsContext.Provider>
         </Container>
       </div>
+      
     </main>
   );
 }
