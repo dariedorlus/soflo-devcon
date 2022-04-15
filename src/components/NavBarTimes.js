@@ -4,16 +4,7 @@ import { Nav } from "react-bootstrap";
 
 const NavBarTime = ({sessions, setActiveCategory, activeCategory}) => {
 
-    const [categories, setCategories] = useState([]);
-    
-    useEffect(() => {
-        if(sessions && sessions.length > 0) {
-            const categories = sessions.map(session => session.time);
-            const uniqueCategories = [...new Set(categories)];
-            setCategories(uniqueCategories);
-        }
-
-    }, [sessions]); 
+  const categories = ["8:30AM - 9:30AM","9:45AM - 10:45AM",  "11:00AM - 12:00PM", "12:00PM - 1:30PM","1:30PM - 2:30PM", "2:45PM - 3:45PM", "4:00PM - 5:00PM"]
 
     return (
       <Nav as="nav" variant="tabs" activeKey={activeCategory}>

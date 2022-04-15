@@ -17,9 +17,9 @@ const Session = ({data}) => {
               <div className="timetable-item-main">
                 <div className="timetable-item-time">{data.time}</div>
                 <div className="timetable-item-topic">{data.topic}</div>
-                <div className="timetable-item-name">{data.speaker}</div>
+                <div className="timetable-item-name">{data.speaker}</div>                
+                <div className="timetable-item-topic">Category: {data.category}</div>
                 <div className="timetable-item-room">{data.room}</div>
-                
                 <div className="timetable-item-like">
                   <i className="fa fa-heart-o" aria-hidden="true"></i>
                   <i className="fa fa-heart" aria-hidden="true"></i>

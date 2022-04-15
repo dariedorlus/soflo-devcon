@@ -45,9 +45,15 @@ idance .timetable {
   height: 100%;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
   .idance .timetable-item-img {
     display: block;
+  }
+/* } */
+
+@media (max-width: 767px)  {
+  .idance .timetable-item-img {
+    float:right;
   }
 }
 

@@ -3,6 +3,21 @@
         "year": 2022,
         "track": 1,
         "category": "PROFESSIONAL DEVELOPMENT",
+        "topic": "Lunch",
+        "speaker": "Lunch",
+        "speakerLink":  "/palm-beach-tech.png",
+        "speakerPicture":  "/palm-beach-tech.png",
+        "time": "12:00PM - 1:30PM",
+        "session": 1,
+        "room": "Main Atrium",
+        "status": "confirmed"
+     
+    },
+
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "PROFESSIONAL DEVELOPMENT",
         "topic": "Your first coding job to your dream coding job",
         "speaker": "Alejandro Sanchez",
         "speakerLink": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Alejandro-Sanchez.jpg",
