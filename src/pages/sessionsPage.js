@@ -5,7 +5,7 @@ import sessions from '../sessions.json';
 import SessionList from '../scenes/SessionList';
 const SessionsContext = createContext();
 
-function sessionsPage() {
+function SessionsPage() {
 
     const [activeCategory, setActiveCategory] = useState('AI');
     return (
@@ -22,4 +22,4 @@ function sessionsPage() {
     );
   }
   
-  export default sessionsPage;
+  export default SessionsPage;

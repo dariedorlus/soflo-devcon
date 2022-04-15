@@ -1,5 +1,5 @@
-import sessionsPage from './pages/sessionsPage';
-import mapPage from './pages/mapPage';
+import SessionsPage from './pages/sessionsPage';
+import MapPage from './pages/mapPage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
@@ -10,8 +10,8 @@ function App() {
     <main className="idance">
           <Router>
         <Switch>
-          <Route exact path="/map" component={mapPage} />
-          <Route exact path="/" component={sessionsPage} />
+          <Route exact path="/map" component={MapPage} />
+          <Route exact path="/" component={SessionsPage} />
           <Route path="*">
             <h2>Nope!</h2>
             <img src="/oops.jpg" width="100" />
