@@ -10,12 +10,7 @@ const SessionList = ({sessions, activeCategory}) => {
     useEffect(() => {
         if(sessions && sessions.length > 0) {
           let selectedSessions = [];
-<<<<<<< HEAD
           if (activeCategory.indexOf("-") ===-1) {
-=======
-          if (activeCategory.indexOf("-") === -1) {
-            console.log("Yes")
->>>>>>> 0497a2f03dca50133771c37211f10394cab2c043
              selectedSessions = sessions.filter(session => session.category === activeCategory).sort((a, b) => a.session - b.session);
           } else {
             selectedSessions = sessions.filter(session => session.time === activeCategory).sort((a, b) => a.session - b.session);
