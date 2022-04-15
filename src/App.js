@@ -6,6 +6,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import sessions from './sessions.json';
 import SessionList from './scenes/SessionList';
+import Hero from './components/Hero';
 
 export const SessionsContext = createContext();
 
@@ -18,6 +19,7 @@ function App() {
         <Container>
           <SessionsContext.Provider value={{}}>
             <section className="timetable">
+              <Hero />
               <NavBar sessions={sessions} setActiveCategory={setActiveCategory} />
               <SessionList sessions={sessions} activeCategory={activeCategory} />
             </section>

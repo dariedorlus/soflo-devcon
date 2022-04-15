@@ -2,9 +2,9 @@
 const Header = () => {
     return (
       <header>
-        <h2 data-aos="zoom-in-up" className="aos-init aos-animate">
-          DevCon Schedule
-        </h2>
+        <h1 data-aos="zoom-in-up" className="aos-init aos-animate">
+          SoFlo DevCon Speaker Schedule and Maps
+        </h1>
       </header>
     );
 }
