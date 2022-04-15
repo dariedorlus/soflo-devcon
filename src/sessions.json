@@ -152,10 +152,10 @@
         "speaker": "Elizabeth Decker",
         "speakerLink": "https://www.linkedin.com/in/elizabethadecker/",
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/elizabeth-d-500x500.png",
-        "time": "8:30AM - 9:30AM",
-        "session": 1,
-        "room": "Room 2077 - 2nd Floor",
-        "status": "hold"
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2082 - 2nd Floor",
+        "status": "confirmed"
     },
     {
         "year": 2022,
@@ -307,23 +307,10 @@
         "topic": "DEI in Tech Talent",
         "speaker": "SCHONFELD",
         "speakerLink": "",
-        "speakerPicture": "/palm-beach-tech.png",
+        "speakerPicture": "/noimage.jpg",
         "time": "4:00PM - 5:00PM",
         "session": 6,
         "room": "Room 2067 - 2nd Floor",
-        "status": "confirmed"
-    },
-    {
-        "year": 2022,
-        "track": 4,
-        "category": "ML",
-        "topic": "Building AI as a Service Product",
-        "speaker": "Carlos Liverani",
-        "speakerLink": "https://www.linkedin.com/in/carlosliverani/",
-        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Carlos-L-500x500.png",
-        "time": "2:45PM - 3:45PM",
-        "session": 5,
-        "room": "Room 2077 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -558,19 +545,6 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Emily-C-500x500.png",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 2082 - 2nd Floor",
-        "status": "confirmed"
-    },
-    {
-        "year": 2022,
-        "track": 8,
-        "category": "DESIGN + UI + UX",
-        "topic": "How to Increase Your Website’s Conversion Rate Through Code and Software",
-        "speaker": "Lancey Lexima",
-        "speakerLink": "https://www.linkedin.com/in/lancey-lexima-3706aa4a/",
-        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2021/08/Lancey-1-500x500.jpeg",
-        "time": "1:30PM - 2:30PM",
-        "session": 4,
         "room": "Room 2082 - 2nd Floor",
         "status": "confirmed"
     },
