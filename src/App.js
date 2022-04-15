@@ -1,29 +1,23 @@
-import React, { createContext, useState } from 'react';
-import { Container } from 'react-bootstrap';
-import NavBar  from './components/NavBar';
+import sessionsPage from './pages/sessionsPage';
+import mapPage from './pages/mapPage';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import sessions from './sessions.json';
-import SessionList from './scenes/SessionList';
-
-export const SessionsContext = createContext();
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [activeCategory, setActiveCategory] = useState('AI');
-  
   return (
     <main className="idance">
-      <div className="schedule content-block">
-        <Container>
-          <SessionsContext.Provider value={{}}>
-            <section className="timetable">
-              <NavBar sessions={sessions} setActiveCategory={setActiveCategory} />
-              <SessionList sessions={sessions} activeCategory={activeCategory} />
-            </section>
-          </SessionsContext.Provider>
-        </Container>
-      </div>
+          <Router>
+        <Switch>
+          <Route exact path="/map" component={mapPage} />
+          <Route exact path="/" component={sessionsPage} />
+          <Route path="*">
+            <h2>Nope!</h2>
+            <img src="/oops.jpg" width="100" />
+          </Route>
+        </Switch>
+    </Router>
     </main>
   );
 }
