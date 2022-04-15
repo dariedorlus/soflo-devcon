@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import { Nav } from "react-bootstrap";
 
  const MapPage = () =>  {
 
@@ -7,9 +8,17 @@ import  { useState } from 'react';
     return (
         <>
         <div className="map content-block" style={{textAlign:"center",position: "sticky",top: "0"}}>
-            <button onClick={() => setMapNum('map1.jpg')}>Floor1</button>
-            <button onClick={() => setMapNum('map2.jpg')}>Floor2</button>
-            <button onClick={() => setMapNum('map3.jpg')}>Floor3</button>
+
+            <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
+                onClick={() => setMapNum('map1.jpg')}
+              >Floor1</Nav.Link>
+            <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
+                onClick={() => setMapNum('map2.jpg')}
+              >Floor2</Nav.Link>            <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
+              onClick={() => setMapNum('map3.jpg')}
+            >Floor2</Nav.Link>
+
+
         </div>
         <div  style={{transform: "scale(1)"}}>
             <img src={`/maps/${mapNum}`} style={{width:"1ev"}}  />

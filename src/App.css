@@ -198,3 +198,12 @@ idance .timetable {
 .idance .schedule .tab-pane {
   padding-top: 10px;
 }
+
+.nav-item {
+  width: 300px !important;
+}
+
+.active.nav-link, .active.nav-link:hover {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}

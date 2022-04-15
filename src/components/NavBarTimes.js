@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { Nav } from "react-bootstrap";
 
 
-const NavBar = ({sessions, setActiveCategory, activeCategory}) => {
+const NavBarTime = ({sessions, setActiveCategory, activeCategory}) => {
 
     const [categories, setCategories] = useState([]);
     
     useEffect(() => {
         if(sessions && sessions.length > 0) {
-            const categories = sessions.map(session => session.category);
+            const categories = sessions.map(session => session.time);
             const uniqueCategories = [...new Set(categories)];
             setCategories(uniqueCategories);
         }
@@ -39,4 +39,4 @@ const NavBar = ({sessions, setActiveCategory, activeCategory}) => {
     ); 
 };
 
-export default NavBar;
+export default NavBarTime;
