@@ -2,10 +2,231 @@
     {
         "year": 2022,
         "track": 1,
+        "category": "AGILE/PROJECT MANAGEMNT",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "AI",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "BLOCKCHAIN",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "CLOUD",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "DESIGN + UI + UX",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "DEVOPS & MICROSERVICES",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "ENTREPRENEURSHIP",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "INVESTMENT",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "LEADERSHIP (SIM)",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "ML",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "Mobile & Web Development",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "PROFESSIONAL DEVELOPMENT",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "QA/TESTING",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "RASPBERRY PI & QUANTUM COMPUTING",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "SAAS & IOT",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "TALENT",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
+        "category": "WEB3 & THE METAVERSE",
+        "topic": "KEYNOTE - Quantative Trading Platform Technology",
+        "speaker": "Yael Mayfield From Schonfled",
+        "speakerLink":  "/noimage.png",
+        "speakerPicture":  "/yael_mayfield.png",
+        "time": "12:30PM - 1:15PM",
+        "session": 4,
+        "room": "Room 3000 (live) - Room 1124 (overflow)",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 1,
         "category": "PROFESSIONAL DEVELOPMENT",
         "topic": "Lunch",
         "speaker": "Lunch",
-        "speakerLink":  "/palm-beach-tech.png",
+        "speakerLink":  "/noimage.png",
         "speakerPicture":  "/palm-beach-tech.png",
         "time": "12:00PM - 1:30PM",
         "session": 1,
@@ -216,7 +437,7 @@
         "topic": "That's Bananas! AI Image Recognition for Everyone, End-to-End",
         "speaker": "Trevor Drummond",
         "speakerLink": "",
-        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Trevor-D-500x500.png",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/trevor_drummond-293x293.jpg",
         "time": "4:00PM - 5:00PM",
         "session": 6,
         "room": "Room 2077 - 2nd Floor",
@@ -232,7 +453,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2021/12/Tahl-Milburn.jpg",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 2077 - 2nd Floor",
+        "room": "Room 2074 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -259,6 +480,19 @@
         "time": "4:00PM - 5:00PM",
         "session": 6,
         "room": "Room 2081 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 6,
+        "category": "WEB3 & THE METAVERSE",
+        "topic": "Metaverse and Beyond",
+        "speaker": "Adam Russell AKA BitDragon",
+        "speakerLink": "",
+        "speakerPicture": "https://d1fdloi71mui9q.cloudfront.net/iNIBgjwcT6ygdc40OR6g_V3KOum9O0X23UE7Q",
+        "time": "1:30PM - 2:30PM",
+        "session": 4,
+        "room": "Room 2056 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -323,7 +557,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Mark-Moyou-297x297.jpg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 2077 - 2nd Floor",
+        "room": "Room 2074 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -336,7 +570,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/William-Hahn-Ph.D-500x500.png",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 2077 - 2nd Floor",
+        "room": "Room 2074 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -349,7 +583,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Edwin-Hernandez-Dr.-500x500.jpg",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 2077 - 2nd Floor",
+        "room": "Room 2074 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -362,7 +596,20 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Adelmo-Orozco-500x500.png",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 2077 - 2nd Floor",
+        "room": "Room 2074 - 2nd Floor",
+        "status": "confirmed"
+    },
+    {
+        "year": 2022,
+        "track": 5,
+        "category": "BLOCKCHAIN",
+        "topic": "I’m a Data Maxi and You Should Be Too",
+        "speaker": "Zach Weiner",
+        "speakerLink": "https://www.linkedin.com/in/developingzack/",
+        "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Zach-W-300x300.png",
+        "time": "2:45PM - 3:45PM",
+        "session": 5,
+        "room": "Room 2078 - 2nd Floor",
         "status": "confirmed"
     },
     {
@@ -451,7 +698,7 @@
         "speaker": "Rob Petrosino",
         "speakerLink": "https://www.linkedin.com/in/robpetrosino/",
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Rob-Petrosino-500x500.jpg",
-        "time": "11:00AM - 12:00PM",
+        "time": "9:45AM - 10:45AM",
         "session": 3,
         "room": "Room 2081 - 2nd Floor",
         "status": "confirmed"
@@ -608,7 +855,7 @@
         "speaker": "James Riley",
         "speakerLink": "https://www.linkedin.com/in/james-riley-00a6979/",
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/James-Riley-500x500.png",
-        "time": "2:45PM - 3:45PM",
+        "time": "1:30PM - 2:30PM",
         "session": 4,
         "room": "Room 2071 - 2nd Floor",
         "status": "confirmed"
@@ -1000,7 +1247,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Gio-P-500x500.png",
         "time": "8:30AM - 9:30AM",
         "session": 1,
-        "room": "Room 2060 - 2nd Floor",
+        "room": "Room 1124 -  1st Floor",
         "status": "confirmed"
     },
     {
@@ -1013,7 +1260,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Jey-R-500x500.png",
         "time": "9:45AM - 10:45AM",
         "session": 2,
-        "room": "Room 2060 - 2nd Floor",
+        "room": "Room 1124 -  1st Floor",
         "status": "confirmed"
     },
     {
@@ -1026,7 +1273,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Cecilia-Brusatori-295x295.jpg",
         "time": "11:00AM - 12:00PM",
         "session": 3,
-        "room": "Room 2060 - 2nd Floor",
+        "room": "Room 1124 -  1st Floor",
         "status": "confirmed"
     },
     {
@@ -1039,7 +1286,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Dwight-Goins.jpg",
         "time": "1:30PM - 2:30PM",
         "session": 4,
-        "room": "Room 2060 - 2nd Floor",
+        "room": "Room 1124 -  1st Floor",
         "status": "confirmed"
     },
     {
@@ -1052,7 +1299,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/Herman-Remy-282x282.jpg",
         "time": "2:45PM - 3:45PM",
         "session": 5,
-        "room": "Room 2060 - 2nd Floor",
+        "room": "Room 1124 -  1st Floor",
         "status": "confirmed"
     },
     {
@@ -1065,7 +1312,7 @@
         "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/03/Kelvin-L-500x500.png",
         "time": "4:00PM - 5:00PM",
         "session": 6,
-        "room": "Room 2060 - 2nd Floor",
+        "room": "Room 1124 -  1st Floor",
         "status": "confirmed"
     },
     {
