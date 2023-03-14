@@ -1,3 +1,3 @@
 # So Flo Dev Con - Converence App.
 
-By the amazing Darius and Damian
+By the amazing Darie and Damian
