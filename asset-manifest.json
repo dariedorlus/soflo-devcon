@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soflo-devcon/static/css/main.b290676a.css",
+    "main.js": "/soflo-devcon/static/js/main.a87e7c84.js",
+    "static/js/787.1adab615.chunk.js": "/soflo-devcon/static/js/787.1adab615.chunk.js",
+    "index.html": "/soflo-devcon/index.html",
+    "main.b290676a.css.map": "/soflo-devcon/static/css/main.b290676a.css.map",
+    "main.a87e7c84.js.map": "/soflo-devcon/static/js/main.a87e7c84.js.map",
+    "787.1adab615.chunk.js.map": "/soflo-devcon/static/js/787.1adab615.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b290676a.css",
+    "static/js/main.a87e7c84.js"
+  ]
+}
