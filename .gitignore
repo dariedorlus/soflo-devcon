@@ -24,3 +24,8 @@ yarn-error.log*
 
 firebase-debug.log
 ui-debug.log
+
+# this is build automatically by "npm run build" in the "client" directory
+public 
+api/src/secrets.js
+.firebase

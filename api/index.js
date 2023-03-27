@@ -13,8 +13,8 @@ app.get("/test", (req,res)=>{
 //API points for talks
 app.get("/talks", getAllTalks)
 
-
-
-
+app.get("/",(req,res)=> {
+    res.send("Nope...")
+})
 
 export const api= functions.https.onRequest(app)
