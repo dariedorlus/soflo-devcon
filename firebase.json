@@ -4,7 +4,7 @@
       "main": "index.js",
       "runtime": "nodejs16",
       "engines": {"node": "16"},
-      "source": "function",
+      "source": "api",
       "codebase": "default",
       "ignore": [
         "node_modules",
