@@ -1,11 +1,9 @@
 {
   "functions": [
     {
-      "main": "index.js",
       "runtime": "nodejs16",
       "engines": {"node": "16"},
       "source": "api",
-      "codebase": "default",
       "ignore": [
         "node_modules",
         ".git",
@@ -18,7 +16,7 @@
     "public": "/public",
     "rewrites": [
       {
-        "source":"**",
+        "source":"**/api/**",
         "function":"api"
       }
     ],

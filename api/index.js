@@ -11,9 +11,9 @@ app.get("/test", (req,res)=>{
 });
 
 //API points for talks
-app.get("/talks", getAllTalks)
+app.get("/api/talks", getAllTalks)
 
-app.get("/",(req,res)=> {
+app.get("/api",(req,res)=> {
     res.send("Nope...")
 })
 
