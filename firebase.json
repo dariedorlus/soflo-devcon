@@ -1,6 +1,7 @@
 {
   "functions": [
     {
+      "port": 5001,
       "runtime": "nodejs16",
       "engines": {"node": "16"},
       "source": "api",
@@ -13,6 +14,7 @@
     }
   ],
   "hosting": {
+    "port": 5002,
     "public": "/public",
     "rewrites": [
       {
