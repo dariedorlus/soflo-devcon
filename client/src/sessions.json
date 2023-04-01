@@ -4,13 +4,19 @@
       "conferenceID": 1,
       "conferenceName": "SoFlo Dev Con 2023",
       "category": "MOBILE APP DEVELOPMENT",
-      "topic": "KEYNOTE - Quantative Trading Platform Technology",
+      "title": "KEYNOTE - Quantative Trading Platform Technology",
       "speakerID": "123",
       "speakernName": "Yael Mayfield From Schonfled",
       "speakerDescription": "Great guy. Great Guy.",
       "speakerSocial": [
-        { "name": "LinkedIn", "uri": "https://linkedin.com/in/damianmontero" },
-        { "name": "Twitter", "uri": "https://twitter.com/damianmontero" }
+        {
+          "name": "LinkedIn",
+          "uri": "https://linkedin.com/in/damianmontero"
+        },
+        {
+          "name": "Twitter",
+          "uri": "https://twitter.com/damianmontero"
+        }
       ],
       "speakerPicture": "https://techhubsouthflorida.org/wp-content/uploads/2022/04/William-Hahn-Ph.D-500x500.png",
       "date": "04/16/2023",
@@ -22,7 +28,6 @@
       "status": "confirmed"
     }
   ],
-
   "conferences": [
     {
       "id": 1,
@@ -31,11 +36,10 @@
       "venueId": 123,
       "Description": "<h1> It rocks</h1>",
       "appUrl": "https://soflodevcon.darieconferenceapp.com/",
-      "videoUrl":"https://www.youtube.com/watch?v=NiknNI_0J48",
+      "videoUrl": "https://www.youtube.com/watch?v=NiknNI_0J48",
       "startDate": "04/16/2023",
       "endDate": "04/16/2023",
       "images": {
-
         "small": "https://soflodevcon/logo.jpg",
         "large": "https://soflodevcon/logo.jpg",
         "favicon": "https://soflodevcon/logo.jpg"
