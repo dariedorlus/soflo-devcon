@@ -14,7 +14,7 @@ function SessionsPage() {
   useEffect(() => {
     const getData = async () => {
       const ConferenceData = await(await fetch(`${process.env.REACT_APP_API_URL}/conference/1`)).json()
-      setActiveFilter(ConferenceData.tracks[0].trackName)
+      //setActiveFilter(ConferenceData.tracks[0].trackName)
       setConferenceData(ConferenceData);
      
       console.log("ActiveFilter: ",activeFilter)

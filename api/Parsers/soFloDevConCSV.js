@@ -87,7 +87,7 @@ fs.createReadStream(csvFileURI)
                         "category": SessionsTrackName,
                         "title": "", // dont' know this until the next line
                         "speakerID": "",
-                        "speakernName": row[x],
+                        "speakerName": row[x],
                         "speakerDescription": "",
                         "speakerSocial": [
                         // { "name": "LinkedIn", "uri": "https://linkedin.com/in/damianmontero" },
@@ -127,6 +127,12 @@ fs.createReadStream(csvFileURI)
                            
                             //console.log("startTime",startTime)
                             Sessions[x-2].startTime = firstpartOfTime + secdondePartOfTime  // Time of talk or session
+                            if (firstpartOfTime + secdondePartOfTime == "08:00") {
+                                Sessions[x-2].title = "WELCOME REMARKS"
+                            }
+                            if (firstpartOfTime == "12:00") {
+                                Sessions[x-2].title = "LUNCH"
+                            }
                             TimeSlots.add(firstpartOfTime + secdondePartOfTime)
                         }
                     }

@@ -20,13 +20,13 @@ const Session = ({ data }) => {
               <div className="timetable-item-time">
               {data.startTime}
               </div>
-              <div className="timetable-item-topic">{data.title}</div>
-              <div className="timetable-item-name">{data.speakerName}</div>
+              <div className="timetable-item-topic">Title: {data.title}</div>
+              <div className="timetable-item-name">Speaker's Name: {data.speakerName}</div>
               <div className="timetable-item-topic">
-                Category: {data.category}
+                Track: {data.category}
               </div>
               <div className="timetable-item-room">{`${data.roomName} ${
-                data.floor || ''
+                data.floor || 'N/A'
               }`}</div>
               <div className="timetable-item-like">
                 <i className="fa fa-heart-o" aria-hidden="true"></i>
