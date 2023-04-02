@@ -2,7 +2,16 @@ import { initializeApp, cert, getApps } from "firebase-admin/app"
 import { getFirestore } from "firebase-admin/firestore"
 import {service_account} from "./secrets.js"
 
-export default function dbConnect() {
+export const Collections = {
+  Sessions: "Sessions",
+  Conferences: "Conferences",
+  Times: "Times",
+  Speakers: "Speakers",
+}
+
+
+
+export function dbConnect() {
   // check if NOT connected
   if(!getApps().length) {
     // connect
