@@ -7,6 +7,7 @@ const SessionsContext = createContext();
 
 function SessionsPage() {
   const [sessions, setSessions] = useState([]);
+  const [activeFilter, setActiveFilter] = useState('AI');
   const [isStartTimeFilter, setIsStartTimeFilter] = useState(false);
 
   useEffect(() => {
@@ -19,7 +20,6 @@ function SessionsPage() {
     getSessions();
   }, []);
 
-  const [activeFilter, setActiveFilter] = useState('AI');
   return (
     <div className="schedule content-block">
       <Container>
@@ -29,7 +29,7 @@ function SessionsPage() {
               sessions={sessions}
               activeFilter={activeFilter}
               setActiveFilter={setActiveFilter}
-              setIsStartTimeFilter={ => setIsStartTimeFilter(false)} //intentional error to remind me where i left off
+              setIsStartTimeFilter={ () => setIsStartTimeFilter(false)} //intentional error to remind me where i left off
             />
             <NavBarTime
               sessions={sessions}

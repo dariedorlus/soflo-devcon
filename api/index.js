@@ -1,7 +1,7 @@
 import functions from "firebase-functions";
 import express from "express";
 import cors from "cors"
-import {getAllTalks} from "./src/talks.js"
+import {getAllSessions} from "./src/Sessions.js"
 
 const app = express();
 app.use (cors());
@@ -11,8 +11,8 @@ app.get("/test", (req,res)=>{
 });
 
 //API points for talks
-app.get("/api/talks", getAllTalks)
-app.get("/talks", getAllTalks)
+app.get("/api/sessions", getAllSessions)
+app.get("/sessions", getAllSessions)
 
 app.get("/api",(req,res)=> {
     res.send("Nope...")
