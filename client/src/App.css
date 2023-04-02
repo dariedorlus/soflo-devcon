@@ -207,6 +207,7 @@ idance .timetable {
 
 .nav-item {
   width: 300px !important;
+  min-width: 100px;
 }
 
 .active.nav-link, .active.nav-link:hover {

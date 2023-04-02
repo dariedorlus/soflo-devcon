@@ -8,16 +8,27 @@ const SessionsContext = createContext();
 function SessionsPage() {
   const [conferenceData, setConferenceData] = useState([]);
   const [activeFilter, setActiveFilter] = useState('Artificial Intelligence');
-  const [isStartTimeFilter, setIsStartTimeFilter] = useState(false);
 
 
   useEffect(() => {
     const getData = async () => {
       const ConferenceData = await(await fetch(`${process.env.REACT_APP_API_URL}/conference/1`)).json()
-      //setActiveFilter(ConferenceData.tracks[0].trackName)
       setConferenceData(ConferenceData);
-     
-      console.log("ActiveFilter: ",activeFilter)
+      // find that's the next (or current) session
+      let CurrentTimeSlot = "08:00"
+      var today = new Date();
+      var CurrentFirstTime =  Number(today.getHours())
+      ConferenceData.times.map(timeSlot => {
+        const firstPartOfTime = Number(timeSlot.time.substr(0,timeSlot.time.indexOf(":")))
+        
+        if (firstPartOfTime <= CurrentFirstTime) {
+          console.log("Yep, ",firstPartOfTime,CurrentFirstTime)
+          CurrentTimeSlot = timeSlot.time;
+        }
+      })
+      console.log("CurrentTimeSlot",CurrentTimeSlot)
+      setActiveFilter(CurrentTimeSlot)
+    
     };
 
     getData();
@@ -37,7 +48,6 @@ function SessionsPage() {
                 conferenceData={conferenceData}
                 activeFilter={activeFilter}
                 setActiveFilter={setActiveFilter}
-                setIsStartTimeFilter={ () => setIsStartTimeFilter(false)} //intentional error to remind me where i left off
               />
             
               <NavBarTime

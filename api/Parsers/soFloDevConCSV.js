@@ -155,22 +155,25 @@ fs.createReadStream(csvFileURI)
   .on("end",function() {
 
     // TrackNames
-    TrackNames.map(trackName => {
-        db.collection(Collections.Tracks).add({trackName: trackName}) // While we are waiting for the promise...
-        .catch(err => {
-            console.log(err)
-            process.exit(1)
-        })
+    TrackNames.map(trackName => { 
+        if (trackName) {
+            db.collection(Collections.Tracks).add({trackName: trackName}) // While we are waiting for the promise...
+            .catch(err => {
+                console.log(err)
+                process.exit(1)
+            })
+        }
     })
 
 
     for (const timeslot of TimeSlots) {
-        console.log("timeslot")
-        db.collection(Collections.Times).add({time:timeslot}) // While we are waiting for the promise...
-        .catch(err => {
-            console.log(err)
-            process.exit(1)
-        })
+        if (timeslot) {
+            db.collection(Collections.Times).add({time:timeslot}) // While we are waiting for the promise...
+            .catch(err => {
+                console.log(err)
+                process.exit(1)
+            })
+        }
       }
 
     //console.log("TrackNames",TrackNames)
