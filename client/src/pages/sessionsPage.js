@@ -6,18 +6,21 @@ import SessionList from '../scenes/SessionList';
 const SessionsContext = createContext();
 
 function SessionsPage() {
-  const [sessions, setSessions] = useState([]);
-  const [activeFilter, setActiveFilter] = useState('AI');
+  const [conferenceData, setConferenceData] = useState([]);
+  const [activeFilter, setActiveFilter] = useState('Artificial Intelligence');
   const [isStartTimeFilter, setIsStartTimeFilter] = useState(false);
 
+
   useEffect(() => {
-    const getSessions = async () => {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/sessions`);
-      const data = await response.json();
-      setSessions(data);
+    const getData = async () => {
+      const ConferenceData = await(await fetch(`${process.env.REACT_APP_API_URL}/conference/1`)).json()
+      setActiveFilter(ConferenceData.tracks[0].trackName)
+      setConferenceData(ConferenceData);
+     
+      console.log("ActiveFilter: ",activeFilter)
     };
 
-    getSessions();
+    getData();
   }, []);
 
   return (
@@ -25,18 +28,28 @@ function SessionsPage() {
       <Container>
         <SessionsContext.Provider value={{}}>
           <section className="timetable">
-            <NavBar
-              sessions={sessions}
-              activeFilter={activeFilter}
-              setActiveFilter={setActiveFilter}
-              setIsStartTimeFilter={ () => setIsStartTimeFilter(false)} //intentional error to remind me where i left off
-            />
-            <NavBarTime
-              sessions={sessions}
-              activeFilter={activeFilter}
-              setActiveFilter={setActiveFilter}
-            />
-            <SessionList sessions={sessions} activeFilter={activeFilter} />
+            {!conferenceData ? 
+            <h1>Loading....</h1>
+            :
+            <> 
+                       
+              <NavBar
+                conferenceData={conferenceData}
+                activeFilter={activeFilter}
+                setActiveFilter={setActiveFilter}
+                setIsStartTimeFilter={ () => setIsStartTimeFilter(false)} //intentional error to remind me where i left off
+              />
+            
+              <NavBarTime
+                conferenceData={conferenceData}
+                activeFilter={activeFilter}
+                setActiveFilter={setActiveFilter}
+              />
+              
+              <SessionList conferenceData={conferenceData} activeFilter={activeFilter} />   
+            </>
+            }
+
           </section>
         </SessionsContext.Provider>
       </Container>

@@ -1,7 +1,6 @@
 import { format, add } from 'date-fns';
 
 const Session = ({ data }) => {
-  debugger;
   return (
     <>
       {data && (
@@ -13,22 +12,13 @@ const Session = ({ data }) => {
                 alt="Conference Speaker"
                 onError={({ currentTarget }) => {
                   currentTarget.onerror = null; // prevents looping
-                  currentTarget.src = '/noimage.jpg';
+                  currentTarget.src = 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg';
                 }}
               />
             </div>
             <div className="timetable-item-main">
               <div className="timetable-item-time">
-                {format(new Date(data.startTime), 'hh mm a..aa')}
-                {` - `}
-                {add(new Date(data.startTime), {
-                  minutes: data.talkLengthInMinutes,
-                }).toLocaleTimeString([], {
-                  hour: '2-digit',
-                  minute: '2-digit',
-                  hour12: true,
-                  timeStyle: 'short',
-                })}
+              {data.startTime}
               </div>
               <div className="timetable-item-topic">{data.title}</div>
               <div className="timetable-item-name">{data.speakerName}</div>

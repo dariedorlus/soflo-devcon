@@ -1,28 +1,20 @@
 import { Nav } from 'react-bootstrap';
 
-const NavBarTime = ({ sessions, setActiveCategory, activeCategory }) => {
-  const startTimes = [
-    '8:30AM',
-    '9:45AM',
-    '11:00AM',
-    '12:00PM',
-    '1:30PM',
-    '2:45PM',
-    '4:00PM',
-  ]; // This should be populated from the sessions data
+const NavBarTime = ({ conferenceData, setActiveCategory, activeCategory }) => {
+
 
   return (
     <Nav as="nav" variant="tabs" activeKey={activeCategory}>
-      {startTimes.map((category, index) => {
-        const active = activeCategory === category ? 'active' : '';
+      {conferenceData && conferenceData.times && conferenceData.times.map((times, index) => {
+        const active = activeCategory === times.time ? 'active' : '';
         return (
           <Nav.Item key={index}>
             <Nav.Link
-              onClick={() => setActiveCategory(category)}
+              onClick={() => setActiveCategory(times.time)}
               key={index}
               className={active}
-              href={`/#${category}`}>
-              {category}
+              href={`/#${times.time}`}>
+              {times.time}
             </Nav.Link>
           </Nav.Item>
         );

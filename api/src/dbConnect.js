@@ -6,6 +6,7 @@ export const Collections = {
   Sessions: "Sessions",
   Conferences: "Conferences",
   Times: "Times",
+  Tracks: "Tracks",
   Speakers: "Speakers",
 }
 
@@ -21,4 +22,5 @@ export function dbConnect() {
   }
   // return db-connection
   return getFirestore()
+  
 }

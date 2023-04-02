@@ -1,16 +1,26 @@
-
-import { FieldValue } from "firebase-admin/firestore"
-import {dbConnect,Collections} from "./src/dbConnect.js"
+import {dbConnect,Collections} from "../src/dbConnect.js"
 import fs  from "fs";
 import { parse } from "csv-parse";
 const db = dbConnect()
 
-// Start by clearing out all the Sessions in firebase
-firebase.firestore().collection(collections.Sessions).listDocuments().then(docs => {
-    docs.map((doc) => {
-        doc.delete()
+// SoFloDevCon
+const TrackNamesOnLine = 4 // Session Names start on line 4 (5th one)
+const colSessionsStart = 2 // the sessions start on column 2 (3rd one)
+const csvFileURI = "./tracks.csv" // name of soFloDevCon tracks file
+const dateOfEvent = "2023-04-15"
+
+function ClearCollection(collection) {
+    db.collection(collection).listDocuments().then(docs => {
+        docs.map((doc) => {
+            doc.delete()
+        })
     })
-})
+}
+
+// Start by clearing out all the Sessions in firebase
+ClearCollection(Collections.Times)
+ClearCollection(Collections.Tracks)
+ClearCollection(Collections.Sessions)
 
 
 /* 
@@ -40,14 +50,14 @@ Lookup example of a session object
 */
 
 let TrackNames = [];
-const TrackNamesOnLine = 4
 let Sessions = []
+let TimeSlots = new Set(); // set
 
 
 
 // Parse the Tracks.csv file and pull out the Sessions, Speakers and Times
 let LineNumber = TrackNamesOnLine;  // we start from line 2
-fs.createReadStream("./tracks.csv")
+fs.createReadStream(csvFileURI)
   .pipe(parse({ delimiter: ",", from_line: TrackNamesOnLine }))
   .on("data", function (row) {
     if (LineNumber == 4) {
@@ -59,19 +69,18 @@ fs.createReadStream("./tracks.csv")
     }
     if (row[0]) { // We have sometime in the first column (first line of time) 
         if (row[0].indexOf("min") == -1 && row[0].indexOf("LUNCH") == -1) {
-            console.log("Parsing: ",row)
+            //console.log("Parsing: ",row)
 
             if (row[0].indexOf("-") == -1) {
                 // We have the title of the session (i.e. SESSION 2 or "LUNCH")
                 // Go through each column starting from the 3th (2) one
                 Sessions = []; // reset the sesstions
-                console.log("It's a time",row.length)
-                for (let x =2; x<row.length;x++) {
+                //console.log("It's a time",row.length)
+                for (let x = colSessionsStart; x<row.length;x++) {
 
                     // Get the Track Name by the column
                     const SessionsTrackName = TrackNames[x]
                    
-                    console.log("working:",SessionsTrackName)
                     const newSession = { 
                         "conferenceID": 1,
                         "conferenceName": "SoFlo Dev Con 2023",
@@ -89,8 +98,8 @@ fs.createReadStream("./tracks.csv")
                         "startTime": "",
                         "talkLengthInMinutes": 60,
                         "session": 1,
-                        "roomName": "",
-                        "floor": "",
+                        "roomName": "TBD",
+                        "floor": "TBD",
                         "status": "confirmed"
                     }
                     Sessions.push(newSession)
@@ -101,9 +110,25 @@ fs.createReadStream("./tracks.csv")
                     // Go through each column starting from the 3th (2) one
                     // console.log("Sessions so far:",Sessions)
                     for (let x =2; x<row.length;x++) {
-                        Sessions[x-2].title = row[9] // Description of talk/ session
-                        let startTime = row[0]
-                        Sessions[x-2].startTime = row[0] // Time of talk or session
+                        Sessions[x-2].title = row[x] // Description of talk/ session
+                        if (row[0]) {
+                            let sessionTime = (row[0].substr(0,row[0].indexOf(" - "))).replace(" ","").replace("AM","").replace("PM","")
+                            //console.log("sessionTime",sessionTime)
+                            let firstpartOfTime = sessionTime.substr(0,sessionTime.indexOf(":"))
+                            let secdondePartOfTime = sessionTime.substr(sessionTime.indexOf(":"))
+                            firstpartOfTime = Number(firstpartOfTime) <= 7 ? Number(firstpartOfTime)+12 : "0"+firstpartOfTime
+                            if (firstpartOfTime == "011") {
+                                firstpartOfTime = "11"
+                            }
+                            const dateString = dateOfEvent  + " " + firstpartOfTime + secdondePartOfTime 
+                            console.log("firstpartOfTime",firstpartOfTime)
+                            const startTime = new Date(Date.parse(dateOfEvent))
+                     
+                           
+                            //console.log("startTime",startTime)
+                            Sessions[x-2].startTime = firstpartOfTime + secdondePartOfTime  // Time of talk or session
+                            TimeSlots.add(firstpartOfTime + secdondePartOfTime)
+                        }
                     }
 
                     // console.log("Sessions so far:",Sessions)
@@ -123,7 +148,27 @@ fs.createReadStream("./tracks.csv")
   })
   .on("end",function() {
 
-    console.log("TrackNames",TrackNames)
-    console.log("Sessions", Sessions)
+    // TrackNames
+    TrackNames.map(trackName => {
+        db.collection(Collections.Tracks).add({trackName: trackName}) // While we are waiting for the promise...
+        .catch(err => {
+            console.log(err)
+            process.exit(1)
+        })
+    })
+
+
+    for (const timeslot of TimeSlots) {
+        console.log("timeslot")
+        db.collection(Collections.Times).add({time:timeslot}) // While we are waiting for the promise...
+        .catch(err => {
+            console.log(err)
+            process.exit(1)
+        })
+      }
+
+    //console.log("TrackNames",TrackNames)
+    //console.log("Sessions", Sessions)
+    console.log("TimeSlots",TimeSlots)
   })
 

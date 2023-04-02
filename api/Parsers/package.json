@@ -1,0 +1,17 @@
+{
+    "name": "soFloDevConCSV",
+    "version": "1.0.0",
+    "description": "parser for all csv files",
+    "main": "soFloDevConCSV.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node soFloDevConCSV.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "csv-parse": "^5.3.6",
+        "firebase-admin": "^11.5.0"
+    }
+}

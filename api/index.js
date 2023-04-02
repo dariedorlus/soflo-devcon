@@ -1,19 +1,34 @@
 import functions from "firebase-functions";
 import express from "express";
 import cors from "cors"
-import {getAllSessions} from "./src/Sessions.js"
+import {getAllSessions,getConferenceData,getAllTracks, getAllTimes} from "./src/Conference.js"
 
 const app = express();
-app.use (cors());
+app.use(cors());
 
 app.get("/test", (req,res)=>{
     res.send("The leads api es connected");
 });
 
 //API points for talks
+app.get("/api/conference/:conferenceID", getConferenceData)
+app.get("/conference/:conferenceID", getConferenceData)
+
+
 app.get("/api/sessions", getAllSessions)
 app.get("/sessions", getAllSessions)
 
+app.get("/api/times", getAllTimes)
+app.get("/times", getAllTimes)
+
+app.get("/api/tracks", getAllTracks)
+app.get("/tracks", getAllTracks)
+
+
+
+app.get("/",(req,res)=> {
+    res.send("Nope...")
+})
 app.get("/api",(req,res)=> {
     res.send("Nope...")
 })

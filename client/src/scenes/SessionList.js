@@ -2,19 +2,18 @@ import { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Session from '../components/Session';
 
-const SessionList = ({ sessions, activeFilter, isStartTimeFilter = false }) => {
+const SessionList = ({ conferenceData, activeFilter, isStartTimeFilter = false }) => {
   const [filteredSessions, setFilteredSessions] = useState([]);
 
   useEffect(() => {
-    if (sessions && sessions.length > 0) {
-      debugger;
+    if (conferenceData && conferenceData.sessions && conferenceData.sessions.length > 0) {
       let selectedSessions = [];
       if (!isStartTimeFilter) {
-        selectedSessions = sessions
+        selectedSessions = conferenceData.sessions
           .filter((session) => session.category === activeFilter)
           .sort((a, b) => a.session - b.session);
       } else {
-        selectedSessions = sessions
+        selectedSessions = conferenceData.sessions
           .filter((session) => session.time === activeFilter)
           .sort((a, b) => a.session - b.session);
       }

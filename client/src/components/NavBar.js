@@ -1,29 +1,20 @@
 import { useEffect, useState } from 'react';
 import { Nav } from 'react-bootstrap';
 
-const NavBar = ({ sessions, setActiveFilter, activeFilter }) => {
-  const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-    if (sessions && sessions.length > 0) {
-      const categories = sessions.map((session) => session.category);
-      const uniqueCategories = [...new Set(categories)];
-      setCategories(uniqueCategories);
-    }
-  }, [sessions]);
+const NavBar = ({ conferenceData, setActiveFilter, activeFilter }) => {
 
   return (
     <Nav as="nav" variant="tabs" activeKey={activeFilter}>
-      {categories.map((category, index) => {
-        const active = activeFilter === category ? 'active' : '';
+      {conferenceData.tracks && conferenceData.tracks.map((track, index) => {
+        const active = activeFilter === track.trackName ? 'active' : '';
         return (
           <Nav.Item key={index}>
             <Nav.Link
-              onClick={() => setActiveFilter(category)}
+              onClick={() => setActiveFilter(track.trackName)}
               key={index}
               className={active}
-              href={`/#${category}`}>
-              {category}
+              href={`/#${track.trackName}`}>
+              {track.trackName}
             </Nav.Link>
           </Nav.Item>
         );

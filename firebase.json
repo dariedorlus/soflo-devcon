@@ -2,8 +2,8 @@
   "functions": [
     {
       "port": 5001,
-      "runtime": "nodejs19",
-      "engines": {"node": "19"},
+      "runtime": "nodejs16",
+      "engines": {"node": "16"},
       "source": "api",
       "ignore": [
         "node_modules",
