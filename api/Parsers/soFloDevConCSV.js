@@ -127,6 +127,7 @@ fs.createReadStream(csvFileURI)
                            
                             //console.log("startTime",startTime)
                             Sessions[x-2].startTime = firstpartOfTime + secdondePartOfTime  // Time of talk or session
+                            Sessions[x-2].OfficialTime = row[0]  // Time of talk or session
                             if (firstpartOfTime + secdondePartOfTime == "08:00") {
                                 Sessions[x-2].title = "WELCOME REMARKS"
                             }
@@ -157,7 +158,7 @@ fs.createReadStream(csvFileURI)
     // TrackNames
     TrackNames.map(trackName => { 
         if (trackName) {
-            db.collection(Collections.Tracks).add({trackName: trackName}) // While we are waiting for the promise...
+            db.collection(Collections.Tracks).add({trackName: trackName, conferenceId: 1}) // While we are waiting for the promise...
             .catch(err => {
                 console.log(err)
                 process.exit(1)
@@ -168,7 +169,7 @@ fs.createReadStream(csvFileURI)
 
     for (const timeslot of TimeSlots) {
         if (timeslot) {
-            db.collection(Collections.Times).add({time:timeslot}) // While we are waiting for the promise...
+            db.collection(Collections.Times).add({time:timeslot, conferenceId: 1}) // While we are waiting for the promise...
             .catch(err => {
                 console.log(err)
                 process.exit(1)

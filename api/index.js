@@ -15,14 +15,14 @@ app.get("/api/conference/:conferenceID", getConferenceData)
 app.get("/conference/:conferenceID", getConferenceData)
 
 
-app.get("/api/sessions", getAllSessions)
-app.get("/sessions", getAllSessions)
+app.get("/api/sessions/:conferenceID", getAllSessions)
+app.get("/sessions/:conferenceID", getAllSessions)
 
-app.get("/api/times", getAllTimes)
-app.get("/times", getAllTimes)
+app.get("/api/times/:conferenceID", getAllTimes)
+app.get("/times/:conferenceID", getAllTimes)
 
-app.get("/api/tracks", getAllTracks)
-app.get("/tracks", getAllTracks)
+app.get("/api/tracks/:conferenceID", getAllTracks)
+app.get("/tracks/:conferenceID", getAllTracks)
 
 
 
