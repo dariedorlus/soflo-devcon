@@ -7,11 +7,19 @@ By the amazing Darie and Damian
 ```
 cd client 
 npm i
-npm run build
+npm start
+#--- in another temrinal
 cd ../api
 npm i
+npm run start
+```
+
+# to Deploy
+```
+cd client 
+npm run build
 cd ..
-firebase emulators:start
+firebase deploy
 ```
 
 # Usage
