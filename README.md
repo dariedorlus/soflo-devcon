@@ -23,6 +23,6 @@ firebase deploy
 ```
 
 # Usage
-http://localhost:5000 <-- The Client (front end)<br>
+http://localhost:3000 <-- The Client (front end)<br>
 and /api is where the api (the functions) live <br>
-try:  http://localhost:5000/api/talks
+try:  http://localhost:5001/soflo-devcon/us-central1/api/conference/1
