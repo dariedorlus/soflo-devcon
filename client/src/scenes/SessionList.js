@@ -8,7 +8,7 @@ const SessionList = ({ conferenceData, activeFilter }) => {
   useEffect(() => {
     if (conferenceData && conferenceData.sessions && conferenceData.sessions.length > 0) {
       let selectedSessions = [];
-      if (activeFilter[0]==="0" || activeFilter[0]==="1") {
+      if (activeFilter.indexOf("-") > -1) {
         // Time Filter
         selectedSessions = conferenceData.sessions
           .filter((session) => session.startTime === activeFilter)

@@ -14,7 +14,7 @@ export async function getConferenceData(req, res) {
   // todo. use this to parse the sessions by only those from this conference.
   const sessions = await getCollection(Collections.Sessions,'TimeOrder')
   const tracks = await getCollection(Collections.Tracks,'trackName')
-  const times = await getCollection(Collections.Times,'time')
+  const times = await getCollection(Collections.Times,'order')
   res.send({sessions,tracks,times})
 }
 
