@@ -12,6 +12,9 @@
     "license": "MIT",
     "dependencies": {
         "csv-parse": "^5.3.6",
-        "firebase-admin": "^11.5.0"
+        "csvtoarray": "^1.1.0",
+        "csvtojson": "^2.0.10",
+        "firebase": "^9.19.1",
+        "firebase-admin": "^11.6.0"
     }
 }

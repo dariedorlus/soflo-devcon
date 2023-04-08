@@ -12,7 +12,7 @@ async function getCollection(collectionName,orderBy) {
 export async function getConferenceData(req, res) {
   const conferenceID = req.params.conferenceID 
   // todo. use this to parse the sessions by only those from this conference.
-  const sessions = await getCollection(Collections.Sessions,'startTime')
+  const sessions = await getCollection(Collections.Sessions,'TimeOrder')
   const tracks = await getCollection(Collections.Tracks,'trackName')
   const times = await getCollection(Collections.Times,'time')
   res.send({sessions,tracks,times})
