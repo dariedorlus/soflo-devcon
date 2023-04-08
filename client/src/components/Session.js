@@ -8,7 +8,7 @@ const Session = ({ data }) => {
           <div className="timetable-item">
             <div className="timetable-item-img">
               <img
-                src={data.speakerPicture}
+                src={data.speakerName.replace(" ","-") + "_HS-1024x1024.png"}
                 alt="Conference Speaker"
                 onError={({ currentTarget }) => {
                   currentTarget.onerror = null; // prevents looping
