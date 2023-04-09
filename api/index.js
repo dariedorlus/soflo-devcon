@@ -6,7 +6,7 @@ import {
   getConferenceData,
   getAllTracks,
   getAllTimes,
-} from './src/monference.js';
+} from './src/conference.js';
 
 const app = express();
 app.use(cors());
@@ -16,8 +16,8 @@ app.get('/test', (req, res) => {
 });
 
 //API points for talks
-app.get('/api/conference/:conferenceID', getConferenceData);
-app.get('/conference/:conferenceID', getConferenceData);
+app.get('/api/conferences/:conferenceID', getConferenceData);
+app.get('/conferences/:conferenceID', getConferenceData);
 
 app.get('/api/sessions/:conferenceID', getAllSessions);
 app.get('/sessions/:conferenceID', getAllSessions);

@@ -3,7 +3,7 @@ const db = dbConnect();
 
 async function getCollection(collectionName, orderBy) {
   const documents = await db.collection(collectionName).orderBy(orderBy).get();
-  const data = documents.docs.map((doc) => ({ ...doc.data(), restId: doc.id }));
+  const data = documents.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
   return data;
 }
 

@@ -2,8 +2,10 @@
   "functions": [
     {
       "port": 5001,
-      "runtime": "nodejs16",
-      "engines": { "node": "16" },
+      "runtime": "nodejs18",
+      "engines": {
+        "node": "18"
+      },
       "source": "api",
       "ignore": [
         "node_modules",
@@ -26,6 +28,10 @@
         "destination": "/index.html"
       }
     ],
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
