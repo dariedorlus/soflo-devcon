@@ -10,10 +10,17 @@ async function getCollection(collectionName, orderBy) {
 export async function getConferenceData(req, res) {
   const conferenceID = req.params.conferenceID;
   // todo. use this to parse the sessions by only those from this conference.
-  const sessions = await getCollection(Collections.Sessions, 'TimeOrder');
+  const sessions = await getCollection(Collections.Sessions, 'timeOrder');
   const tracks = await getCollection(Collections.Tracks, 'trackName');
   const times = await getCollection(Collections.Times, 'order');
   res.send({ sessions, tracks, times });
+}
+
+export async function getAllSessions(req, res) {
+  const conferenceID = req.params.conferenceID;
+  // todo. use this to parse the sessions by only those from this conference.
+  const sessions = await getCollection(Collections.Sessions, 'timeOrder');
+  res.send(sessions);
 }
 
 export async function getAllTracks(req, res) {
@@ -26,13 +33,8 @@ export async function getAllTracks(req, res) {
 export async function getAllTimes(req, res) {
   const conferenceID = req.params.conferenceID;
   // todo. use this to parse the sessions by only those from this conference.
-  const times = await getCollection(Collections.Times, 'time');
+  const times = await getCollection(Collections.Times, 'order');
   res.send(times);
 }
 
-export async function getAllSessions(req, res) {
-  const conferenceID = req.params.conferenceID;
-  // todo. use this to parse the sessions by only those from this conference.
-  const sessions = await getCollection(Collections.Sessions, 'startTime');
-  res.send(sessions);
-}
+
