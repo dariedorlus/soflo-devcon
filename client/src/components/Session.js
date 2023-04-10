@@ -9,11 +9,11 @@ const Session = ({ data }) => {
             <div className="timetable-item-img">
               <img
                 src={"/profiles/"+data.speakerName.replace(" ","-") + "_HS-1024x1024.png"}
-                alt="Conference Speaker"
-                // onError={({ currentTarget }) => {
-                //   currentTarget.onerror = null; // prevents looping
-                //   currentTarget.src = 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg';
-                // }}
+                alt={data.speakerName + " picture"}
+                onError={({ currentTarget }) => {
+                  currentTarget.onerror = null; // prevents looping
+                  currentTarget.src = 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg';
+                }}
               />
             </div>
             <div className="timetable-item-main">
