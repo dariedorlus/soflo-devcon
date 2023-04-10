@@ -8,8 +8,8 @@ const Session = ({ data }) => {
           <div className="timetable-item">
             <div className="timetable-item-img">
               <img
-                src={data.speakerPicture}
-                alt="Conference Speaker"
+                src={"/profiles/"+data.speakerName.replace(" ","-") + "_HS-1024x1024.png"}
+                alt={data.speakerName + " picture"}
                 onError={({ currentTarget }) => {
                   currentTarget.onerror = null; // prevents looping
                   currentTarget.src = 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg';

@@ -199,4 +199,21 @@ for (const timeslot of TimeSlots) {
 //console.log("TimeSlots",TimeSlots)
 console.log('Session Count', SessionCount);
 
-console.log('-=-=-=-=-=-=-=-=-=-=-=-=- DONE! -=-=-=-=-=-=-=-=-=-=-=-=- ');
+    // clear the "nothing scheduled ones"
+    let deletedCount = 0
+    db.collection(Collections.Sessions).get().then(collection => {
+        collection.docs.map((doc) => {
+            if (doc.data().title == "Nothing Scheduled") {
+                db.collection(Collections.Sessions).doc(doc.id).delete()
+                deletedCount++
+            }
+        })
+    })
+
+    //console.log("TrackNames",TrackNames)
+    //console.log("Sessions", Sessions)
+    //console.log("TimeSlots",TimeSlots)
+    console.log("Session Count",SessionCount)
+    console.log("deleted",deletedCount)
+   
+    console.log("-=-=-=-=-=-=-=-=-=-=-=-=- DONE! -=-=-=-=-=-=-=-=-=-=-=-=- ")
