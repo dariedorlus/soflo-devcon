@@ -173,7 +173,7 @@ for (let q = SessionsStartsIn; q < data.length; q++) {
 
 // TrackNames
 TrackNames.map((trackName) => {
-  if (trackName) {
+  if (trackName && trackName != "CIO (Exclusive)") {
     db.collection(Collections.Tracks)
       .add({ trackName: trackName, conferenceId: conferenceId }) // While we are waiting for the promise...
       .catch((err) => {
@@ -184,21 +184,18 @@ TrackNames.map((trackName) => {
 });
 
 for (const timeslot of TimeSlots) {
-  if (timeslot) {
+  if (timeslot && timeslot.time != "5:15 - 6:00 PM" &&  timeslot.time != "6:30 - 7:30 PM") {
     db.collection(Collections.Times)
       .add(timeslot) // While we are waiting for the promise...
       .catch((err) => {
         console.log(err);
         process.exit(1);
       });
+    }
   }
-}
 
-//console.log("TrackNames",TrackNames)
-//console.log("Sessions", Sessions)
-//console.log("TimeSlots",TimeSlots)
-console.log('Session Count', SessionCount);
 
+ 
     // clear the "nothing scheduled ones"
     let deletedCount = 0
     db.collection(Collections.Sessions).get().then(collection => {
@@ -209,11 +206,9 @@ console.log('Session Count', SessionCount);
             }
         })
     })
+    console.log("Sessions Deleted",deletedCount)
 
-    //console.log("TrackNames",TrackNames)
-    //console.log("Sessions", Sessions)
-    //console.log("TimeSlots",TimeSlots)
-    console.log("Session Count",SessionCount)
-    console.log("deleted",deletedCount)
+
+    
    
     console.log("-=-=-=-=-=-=-=-=-=-=-=-=- DONE! -=-=-=-=-=-=-=-=-=-=-=-=- ")

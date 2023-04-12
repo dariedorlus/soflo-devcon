@@ -3,19 +3,19 @@ import { Nav } from "react-bootstrap";
 
  const MapPage = () =>  {
 
-    const [mapNum, setMapNum] = useState('map1.jpg');
+    const [mapNum, setMapNum] = useState('map1.png');
 
     return (
         <>
         <div className="map content-block" style={{textAlign:"center",position: "sticky",top: "0"}}>
 
             <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
-                onClick={() => setMapNum('map1.jpg')}
+                onClick={() => setMapNum('map1.png')}
               >Floor1</Nav.Link>
             <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
-                onClick={() => setMapNum('map2.jpg')}
+                onClick={() => setMapNum('map2.png')}
               >Floor2</Nav.Link>            <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
-              onClick={() => setMapNum('map3.jpg')}
+              onClick={() => setMapNum('map3.png')}
             >Floor2</Nav.Link>
 
 
