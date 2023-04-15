@@ -11,12 +11,12 @@ import { Nav } from "react-bootstrap";
 
             <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
                 onClick={() => setMapNum('map1.png')}
-              >Floor1</Nav.Link>
+              >Floor 1 - Workshops</Nav.Link>
             <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
                 onClick={() => setMapNum('map2.png')}
-              >Floor2</Nav.Link>            <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
+              >Floor 2 - Sessions</Nav.Link>            <Nav.Link  className="btn btn-success" style={{color:"white", width:"48%", display: "inline", marginRight: "10px"}}
               onClick={() => setMapNum('map3.png')}
-            >Floor2</Nav.Link>
+            >Floor 3 - Workshop & VIP Lunch</Nav.Link>
 
 
         </div>

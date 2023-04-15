@@ -25,9 +25,9 @@ const Session = ({ data }) => {
               <div className="timetable-item-topic">
                 Track: {data.category}
               </div>
-              <div className="timetable-item-room">{`${data.roomName} ${
+              <div className="timetable-item-room">Room: {data.roomName} - Floor: {
                 data.floor || 'N/A'
-              }`}</div>
+              }</div>
               <div className="timetable-item-like">
                 <i className="fa fa-heart-o" aria-hidden="true"></i>
                 <i className="fa fa-heart" aria-hidden="true"></i>

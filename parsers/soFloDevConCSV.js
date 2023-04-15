@@ -5,6 +5,7 @@ const db = dbConnect();
 
 // SoFloDevCon
 const conferenceId = 1; // conference id
+const RoomsOnLine = 5;
 const TrackNamesOnLine = 4; // Session Names start on line 4 (5th one)
 const SessionsStartsIn = 9; // sessions starts in row 7
 const colSessionsStart = 2; // the sessions start on column 2 (3rd one)
@@ -55,6 +56,7 @@ Lookup example of a session object
 let TrackNames = [];
 let Sessions = [];
 let TimeSlots = []; // set
+let Rooms = [];
 let SessionCount = 0;
 
 // Screw the libraries. let's create our own to parse
@@ -66,7 +68,11 @@ var data = fs
 
 // Get the Track Names
 TrackNames = data[TrackNamesOnLine - 1];
-//console.log("TrackNames",TrackNames)
+console.log("TrackNames",TrackNames)
+
+// Get Rooms
+Rooms = data[RoomsOnLine - 1];
+console.log("Rooms",Rooms)
 
 // Get all Sessions
 for (let q = SessionsStartsIn; q < data.length; q++) {
@@ -84,6 +90,7 @@ for (let q = SessionsStartsIn; q < data.length; q++) {
       for (let x = colSessionsStart; x < row.length; x++) {
         // Get the Track Name by the column
         const SessionsTrackName = TrackNames[x];
+        const RoomNumber = "" + Rooms[x]
         const SpeakerName = row[x].trim() || 'Nothing Scheduled';
         //if (LineNumber == 8) {
         //console.log("SpeakerName",SessionsTrackName,SpeakerName)
@@ -105,8 +112,8 @@ for (let q = SessionsStartsIn; q < data.length; q++) {
           startTime: '',
           talkLengthInMinutes: 60,
           session: 1,
-          roomName: 'TBD',
-          floor: 'TBD',
+          roomName: RoomNumber,
+          floor: RoomNumber[0] ?? "",
           status: 'confirmed',
         };
         //}
