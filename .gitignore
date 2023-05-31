@@ -29,3 +29,4 @@ ui-debug.log
 public 
 api/src/secrets.js
 .firebase
+.firebaserc
